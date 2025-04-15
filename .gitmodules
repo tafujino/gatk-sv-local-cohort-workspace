@@ -1,0 +1,6 @@
+[submodule "gatk-sv-v1.0.1-local"]
+	path = gatk-sv-v1.0.1-local
+	url = https://github.com/tafujino/gatk-sv-v1.0.1-local.git
+[submodule "gatk-sv-2871327daa17762a62a8cb3ad1eefd50daac6761-local"]
+	path = gatk-sv-2871327daa17762a62a8cb3ad1eefd50daac6761-local
+	url = https://github.com/tafujino/gatk-sv-2871327daa17762a62a8cb3ad1eefd50daac6761-local.git
