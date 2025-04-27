@@ -76,8 +76,8 @@ class Workspace
     @workflow_manager.print_status
   end
 
-  # @param path [String]
-  def register_pedigree_file(path)
+  # @param ped_path [String]
+  def register_pedigree_file(ped_path)
     @data_store.workspace_data['cohort_ped_file'] = File.absolute_path(ped_path)
     write_data_with_backup
   end
