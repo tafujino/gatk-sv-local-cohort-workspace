@@ -2,9 +2,6 @@
 
 source mysql_params.sh
 
-MYSQL_VERSION=9.0.0
-MYSQL_ROOT_PASSWORD=mysqlrootpw
-
 mkdir -p ${MYSQL_DATA_DIR}/mysql/var/lib/mysql ${MYSQL_DATA_DIR}/mysql/run/mysqld
 
 IMAGE_PATH=${PWD}/mysql_${MYSQL_VERSION}.sif
